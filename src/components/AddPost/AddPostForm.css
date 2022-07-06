@@ -1,0 +1,23 @@
+.addpostform {
+    background-color: white;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0dfdc00;
+}
+
+.addpostform-userimage {
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+}
+.addpostform-input{
+    height: 48px;
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 510px !important;
+}
