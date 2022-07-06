@@ -1,0 +1,29 @@
+.navbarlinks {
+    text-align: center;
+}
+
+.navbarlinks-link:hover {
+    color: black !important;
+}
+
+.navbarlinks-link:active,
+.navbarlinks-link:focus {
+    margin-bottom: -8px;
+    border-bottom: 2px solid #000;
+}
+
+.navbarlinks-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbarlinks-link p {
+    font-size: -1px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarlinks-link__svg {
+    font-size: 20px;
+    margin-left: 32%;
+}

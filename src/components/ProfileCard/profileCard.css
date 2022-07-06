@@ -1,0 +1,53 @@
+.profilecard {
+    border-radius: 10px 10px 10px 10px;
+}
+
+.profilecard-image {
+    height: 57px;
+    border-radius: 10px 10px 0 0;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+.profilecard-image__user {
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    margin: auto;
+    margin-top: -36px;
+}
+
+.profilecard-title {
+    font-size: 16px;
+}
+
+.profilecard-title__role {
+    font-size: 12px;
+}
+
+.profilecard-text {
+    color: grey;
+    font-size: 12px;
+}
+
+.profilecard-text span {
+    color: blue;
+    margin-left: 2.6rem;
+    font-weight: 500;
+}
+
+.profilecard-custom svg {
+    fill: rgb(231, 163, 62) !important;
+}
+
+.profilecard-custom__box {
+    height: 11px;
+    width: 11px;
+    background-color: rgb(231, 163, 62);
+    margin-right: 4px;
+    margin-bottom: 2px;
+    border-radius: 3px;
+}
